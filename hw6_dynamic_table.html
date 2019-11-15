@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+  Name: Yufeng Tan
+  E-mail: Yufeng_Tan@student.uml.edu
+  Assignment: hw6, Interactive Dynamic table: create a table completely dynamically
+              based on parameters entered in an HTML form, then crate a multiplication table completely dynamically.
+-->
+
+<html>
+  <head>
+    <title>GUI I homework 6</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hw6.css">
+  </head>
+  <body>
+    <div id="page">
+      <h1 id="header">Interactive Dynamic Table</h1>
+        <p>Please enter the starting and ending numbers for the multiplication table</p>
+          <!-- follow input forms examples on https://www.w3schools.com/js/js_input_examples.asp -->
+          <form>
+                multiplier Starting: <input type="text" id="multiplier_start">
+            <br>multiplier Ending: <input type="text" id="multiplier_end">
+            <br>multiplicant Starting: <input type="text" id="multiplicant_start">
+            <br>multiplicant Ending: <input type="text" id="multiplicant_end">
+            <br><input type="button" onclick="createTable()" value="submit">
+          </form>
+    </div>
+      <script src="table.js"></script>
+      <div id="table"></div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+/*
+  Name: Yufeng Tan
+  E-mail: Yufeng_Tan@student.uml.edu
+  Assignment: hw6, Interactive Dynamic table: create a table completely dynamically
+              based on parameters entered in an HTML form, then crate a multiplication table completely dynamically.
+  This is the css file for hw6
+*/
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #E6E6FA;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+form {
+  color:#00008B;
+  text-align: left;
+}
+
+input {
+  margin:10px 20px;
+}
